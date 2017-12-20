@@ -1,2 +1,9 @@
-# Landing page
-The landing page for Roar for Jira chrome plug-in
+# The Roar website
+The website for the Roar for Jira chrome plug-in.
+
+## Install
+- nothing to do.
+
+## Run
+- `python -m SimpleHTTPServer`
+- open localhost:8000
