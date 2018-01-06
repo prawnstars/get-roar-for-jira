@@ -1,0 +1,13 @@
+{
+  "name": "roar-website",
+  "version": "1.0.0",
+  "description": "The product website for Roar",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:prawnstars/roar-website.git",
+  "author": "Allard van Helbergen <allard@vanhelbergen.com>",
+  "license": "MIT"
+}

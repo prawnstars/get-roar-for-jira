@@ -1,0 +1,12 @@
+*.idea
+*.iml
+*.pem
+
+.DS_Store
+credentials.json
+package-lock.json
+store.db
+
+dist/
+node_modules/
+public/
