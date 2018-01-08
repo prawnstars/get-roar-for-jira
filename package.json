@@ -4,10 +4,18 @@
   "description": "The product website for Roar",
   "main": "index.html",
   "scripts": {
-    "start": "python -m SimpleHTTPServer",
+    "build": "gulp build",
+    "deploy": "git subtree push --prefix public origin gh-pages",
+    "serve": "gulp serve",
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git@github.com:prawnstars/roar-website.git",
   "author": "Allard van Helbergen <allard@vanhelbergen.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  }
 }
