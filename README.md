@@ -1,12 +1,12 @@
 # The Roar website
-The website for the Roar for Jira chrome plug-in.
+The website for Roar for Jira.
 
 ## Install
-- nothing to do.
+- `yarn install`
 
 ## Run
 - `yarn start`
-- open http://localhost:8000
+- Browser will open `http://localhost:3000` automatically.
 
 ## Publish
 - Commit all things to `master`
