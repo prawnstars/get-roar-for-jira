@@ -1,3 +1,14 @@
+a {
+  color: $primary;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: lighten($primary, 10%) !important;
+  }
+
+}
+
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
