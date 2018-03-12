@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 
 
 var path = {
-  BUILD: 'gh-pages/'
+  BUILD: 'dist/'
 };
 
 
