@@ -82,6 +82,9 @@ function deletePublishDir() {
 }
 
 
+/**
+ * Immediately invoked function that executes all the things.
+ */
 (function() {
   // Sets message verbosity in a weird way we don't understand.
   sh.config.silent = !(config.outputLevel >= 3);
