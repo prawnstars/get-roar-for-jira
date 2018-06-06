@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{97:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Roar - Voice Assitant for Jira"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----f2d94f424d3ff45b2d1a.js.map
