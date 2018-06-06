@@ -1,12 +1,15 @@
 # The Roar website
 The website for Roar for Jira.
 
+Built with [Gatsby](https://www.gatsbyjs.org/docs/).
+
 ## Install
-- `yarn install`
+- `yarn`
 
 ## Run
-- `yarn start`
-- Browser will open `http://localhost:3000` automatically.
+- `yarn run develop`
+- `yarn run develop --host <my-ip-address>` to view on mobile
+- Do awesome things.
 
 ## Deploy to gh-pages
 - Commit all things to `master`.

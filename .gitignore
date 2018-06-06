@@ -2,10 +2,14 @@
 *.iml
 *.pem
 
+.cache
 .DS_Store
+.vscode
+
 credentials.json
 package-lock.json
 store.db
+yarn-error.log
 
 dist/
 gh-pages/
