@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../sass/styles.scss';
 
@@ -24,7 +25,7 @@ const Layout = ({ children, data }) => (
       <link rel="apple-touch-icon" sizes="152x152" href="img/favicon152.png" />
       <link rel="apple-touch-icon" sizes="167x167" href="img/favicon167.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="img/favicon180.png" />
-      
+
       <meta name="author" content="/humans.txt" />
       <meta name="description" content="Roar is a voice assistant for Jira, taming Jira and making your life easier." />
       <link type="text/plain" rel="author" href="/humans.txt" />
@@ -33,14 +34,18 @@ const Layout = ({ children, data }) => (
     { children() }
 
   </div>
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.func,
-}
+  data: PropTypes.any,
+};
 
-export default Layout
 
+export default Layout;
+
+
+// eslint-disable-next-line no-undef
 export const query = graphql`
   query SiteTitleQuery {
     site {
@@ -49,4 +54,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

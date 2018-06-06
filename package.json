@@ -10,7 +10,7 @@
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write 'src/**/*.js'",
-    "lint": "eslint src/**/*.*",
+    "lint": "eslint . && sass-lint src/sass/",
     "serve": "gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -34,7 +34,13 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-graphql": "^2.1.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
     "gh-pages": "^1.1.0",
-    "prettier": "^1.12.0"
+    "prettier": "^1.12.0",
+    "sass-lint": "^1.12.1"
   }
 }

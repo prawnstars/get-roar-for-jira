@@ -1,22 +1,21 @@
 {
-  "globals": {
-    "$": true,
-    "webkitSpeechRecognition": true,
-    "AP": true
-  },
   "env": {
     "browser": true,
-    "es6": true,
-    "node": true
+    "commonjs": true,
+    "es6": true
   },
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
-      "modules": true
+      "modules": true,
+      "jsx": true
     }
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "rules": {
     "indent": [
       "error",

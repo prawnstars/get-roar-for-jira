@@ -3,3 +3,5 @@
 # Ignore built files
 public/*
 dist/*
+cache/*
+node_modules/*
