@@ -25,23 +25,12 @@ const NotFoundPage = () => (
             </div>
           </div>
         </div>
+        <div className="row">
+          <Footer />
+        </div>
       </div>
     </div>
-
-    <div className="social-icons">
-      <ul className="list-unstyled text-center mb-0">
-        <li className="list-unstyled-item">
-          <a href="#">
-            <i className="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li className="list-unstyled-item">
-          <a href="#">
-            <i className="fa fa-envelope"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <SocialButtons />
   </div>
 );
 
