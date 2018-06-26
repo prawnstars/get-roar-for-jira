@@ -1,5 +1,6 @@
 import React from 'react';
-
+import SocialButtons from '../components/SocialButtons';
+import Footer from '../components/Footer';
 
 const NotFoundPage = () => (
   <div className="wrapper">
@@ -11,7 +12,7 @@ const NotFoundPage = () => (
           <div className="col-12 my-auto">
             <div className="masthead-content text-white py-5 py-md-0">
               <div className="logo">
-                <img src="img/logo-roar.svg" className="logo-image" />
+                <img src="/img/logo-roar.svg" className="logo-image" />
                 <span className="logo-text">Roar</span>
               </div>
               <h2>Page Not Found</h2>
