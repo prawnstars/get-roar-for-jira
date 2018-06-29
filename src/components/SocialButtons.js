@@ -13,15 +13,12 @@ const SocialButtons = () => (
     <ul className="list-unstyled text-center mb-0">
       <li className="list-unstyled-item">
         <a href="#">
-          {/* <FontAwesomeIcon icon="coffee" /> */}
           <FontAwesomeIcon icon={['fab', 'twitter']} />
-          {/*<i className="fa fa-twitter"></i>*/}
         </a>
       </li>
       <li className="list-unstyled-item">
         <a href="#">
           <FontAwesomeIcon icon={['fas', 'envelope']} />
-          {/* <i className="fa fa-envelope"></i> */}
         </a>
       </li>
     </ul>
