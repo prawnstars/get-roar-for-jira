@@ -36,9 +36,10 @@ const Layout = ({ children, data }) => (
   </div>
 );
 
+
 Layout.propTypes = {
   children: PropTypes.func,
-  data: PropTypes.any,
+  data: PropTypes.object,
 };
 
 
@@ -47,7 +48,7 @@ export default Layout;
 
 // eslint-disable-next-line no-undef
 export const query = graphql`
-  query SiteTitleQuery {
+  query LayoutQuery {
     site {
       siteMetadata {
         title

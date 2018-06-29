@@ -17,7 +17,7 @@ body {
   @include body-font;
   height: 100%;
   position: relative;
-  background: url('/img/bg-mobile-fallback.jpg');
+  background: url('/img/bg-mobile-fallback.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
   background-color: $white;
